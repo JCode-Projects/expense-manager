@@ -1,7 +1,7 @@
 body {
-    background: #000428;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #004e92, #000428);  
-background: linear-gradient(to right, #004e92, #000428); 
+    background: #000428;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #063e6e 0%,#0a3255 100%);
 }
 header {
     margin: 30px 0;
@@ -10,7 +10,7 @@ header {
     padding:20px;
 }
 .contenido-principal {
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     padding: 30px;
     border-radius: 20px;
 }
@@ -25,13 +25,11 @@ header {
     margin-bottom: 30px;
 }
 h1{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-weight: bold;
     color: white;
 }
 h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-weight: bolder;
     color:#004e92;
     font-size: 22px;
     margin-bottom:30px;
